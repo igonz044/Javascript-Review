@@ -1,3 +1,5 @@
+//Figure out hwo to display two images instead of just one
+
 fetch("https://dog.ceo/api/breeds/image/random")
   .then(res => res.json()) //parse
   .then(data => {
