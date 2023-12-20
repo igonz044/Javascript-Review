@@ -1,0 +1,38 @@
+header {
+  height: 80px;
+  border: 2px solid pink;
+  border-right-style: none;
+  border-left-style: none;
+
+}
+section {
+  display: flex;
+  justify-content: space-between;
+}
+article {
+  height: 150px;
+  width: 33.33333%;
+  border: 2px solid pink;
+  display: inline-block;
+  border-top-style: none;
+  border-left-style: none;
+
+}
+.section2 {
+  height: 200px;
+  width: 50%;
+
+}
+footer {
+  height: 80px;
+  border: 2px solid pink;
+  border-top-style: none;
+  border-right-style: none;
+  border-left-style: none;
+}
+
+@media screen and (max-width: 800px) {
+  body {
+    background: blue;
+  }
+}
